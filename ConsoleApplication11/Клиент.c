@@ -28,7 +28,9 @@ int main()
 
 			
 			if (flag) {
-				
+				printf("Соединение с сервером установлено успешно!");
+				Sleep(1000);
+				system("cls");
 				printf("\nВведите число, которое хотите возвести в квадрат ");
 				gets(message_user);
 				buffer = &message_user;
